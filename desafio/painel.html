@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style_painel2.css">
+    <script src="./js/script_painel.js"></script>
+
+
+
+    <title>Painel 2</title>
+</head>
+
+<body>
+    <main>
+        <section id="menuSectionIcons">
+            <ul>
+                <li id="btnAbrirFecharClientes"><span
+                        class="material-symbols-outlined icons-list">group_add</span>Clientes</li>
+                <li id="btnAbrirFecharProdutos"><span class="material-symbols-outlined icons-list">redeem</span>Produtos
+                </li>
+                <li id="btnAbrirFecharPedidos"><span
+                        class="material-symbols-outlined icons-list">shopping_cart</span>Pedidos</li>
+            </ul>
+        </section>
+        <section id="menuSectionClienProdPed">
+
+            <fieldset id="ClientesFieldset"
+                class="fortmatacaoFieldset displayFlex displayColumn fortmatacaoFieldsetClienProdPedi displayNone">
+                <form method="post" class="">
+                    <div class="divTitulo displayFlex spaceBetween">
+                        <h2 class="formatacaoText">Clientes</h2>
+                        <input type="button" value="X" id="btnFecharClientes" class="btnStyleX">
+                    </div>
+                    <label for="codigoClienteId" class="tamanhoLabelInputText espacamentoLabelSec">Código</label>
+                    <input type="text" value="" name="codCliente" id="codCliente"
+                        class="tamanhoLabelInputText formatacaoText" disabled>
+
+                    <label for="nomeClienteId" class="tamanhoLabelInputText espacamentoLabelSec">Nome</label>
+                    <input type="text" value="" name="nomeClienteId" id="nomeCliente"
+                        class="tamanhoLabelInputText formatacaoText">
+
+                    <label for="dataCadastroClienteId" class="tamanhoLabelInputText espacamentoLabelSec">Data
+                        Cadastro</label>
+                    <input type="text" value="" name="dataCadCli" id="dataCadCli"
+                        class="tamanhoLabelInputText formatacaoText">
+                    <div class="displayFlex divButtonNav spaceBetween">
+                        <div>
+                            <input type="button" value="<" id="voltarCliente" name="voltarCliente"
+                                class="btnStyle btnMaiorMenor">
+                            <input type="button" value=">" id="proximoCliente" name="proximoCliente"
+                                class="btnStyle btnMaiorMenor">
+                        </div>
+                        <div>
+                            <input type="button" value="Novo" id="novoCliente" name="novoCliente"
+                                class="btnStyle btnNovoSalvar btnNovo">
+                            <input type="button" value="Salvar" id="salvarCliente" name="salvarCliente"
+                                class="btnStyle btnNovoSalvar btnSalvar">
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+            <fieldset id="ProdutosFieldset"
+                class="fortmatacaoFieldset displayFlex displayColumn fortmatacaoFieldsetClienProdPedi displayNone">
+                <form method="post" class="">
+                    <div class="divTitulo displayFlex spaceBetween">
+                        <h2 class="formatacaoText">Produtos</h2>
+                        <input type="button" value="X" id="btnFecharProdutos" class="btnStyleX">
+                    </div>
+                    <label for="codProduto" class="tamanhoLabelInputText espacamentoLabelSec">Código</label>
+                    <input type="text" value="" name="codProduto" id="codProduto"
+                        class="tamanhoLabelInputText formatacaoText" disabled>
+
+                    <label for="descProduto" class="tamanhoLabelInputText espacamentoLabelSec">Descrição</label>
+                    <input type="text" value="" name="descProduto" id="descProduto"
+                        class="tamanhoLabelInputText formatacaoText">
+
+                    <label for="dataCadastroClienteId" class="tamanhoLabelInputText espacamentoLabelSec">Preço</label>
+                    <input type="text" value="" name="precoProduto" id="precoProduto"
+                        class="tamanhoLabelInputText formatacaoText">
+
+                    <label for="dataCadastroClienteId"
+                        class="tamanhoLabelInputText espacamentoLabelSec">Quantidade</label>
+                    <input type="text" value="" name="qtdEstoqueProd" id="qtdEstoqueProd"
+                        class="tamanhoLabelInputText formatacaoText">
+                    <div class="displayFlex divButtonNav spaceBetween">
+                        <div>
+                            <input type="button" value="<" id="voltarCliente" name="voltarCliente"
+                                class="btnStyle btnMaiorMenor">
+                            <input type="button" value=">" id="proximoCliente" name="proximoCliente"
+                                class="btnStyle btnMaiorMenor">
+                        </div>
+                        <div>
+                            <input type="button" value="Novo" id="novoCliente" name="novoCliente"
+                                class="btnStyle btnNovoSalvar btnNovo">
+                            <input type="button" value="Salvar" id="salvarCliente" name="salvarCliente"
+                                class="btnStyle btnNovoSalvar btnSalvar">
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+
+
+            <fieldset id="PedidosFieldset"
+                class="fortmatacaoFieldset displayFlex displayColumn fortmatacaoFieldsetPedi displayNone">
+                <form method="post" class="">
+                    <div class="divTitulo displayFlex spaceBetween">
+                        <h2 class="formatacaoText">Pedidos</h2>
+                        <input type="button" value="X" id="btnFecharPedidos" class="btnStyleX">
+                    </div>
+                    <label for="codProduto" class="tamanhoLabelInputText espacamentoLabelSec">Código do Cliente</label>
+                    <input type="text" value="" name="codPedido" id="codPedido"
+                        class="tamanhoLabelInputText formatacaoText" disabled>
+
+                    <label for="descProduto" class="tamanhoLabelInputText espacamentoLabelSec">Cliente</label>
+                    <input type="text" value="" name="nomeClientePedido" id="nomeClientePedido"
+                        class="tamanhoLabelInputText formatacaoText">
+
+                    <label for="dataCadastroClienteId" class="tamanhoLabelInputText espacamentoLabelSec">Localizar
+                        Produto</label>
+                    <div id="divLancarPedidos" class="displayFlex">
+                        <input type="text" value="" name="precoProduto" id="lanCodPedido"
+                            class="tamanhoLabelInputText formatacaoText primeiraDiv">
+                        <input type="text" value="" name="precoProduto" id="lanNomePedido"
+                            class="tamanhoLabelInputText formatacaoText divMargin" disabled>
+                        <input type="text" value="" name="precoProduto" id="lanPrecoPedido"
+                            class="tamanhoLabelInputText formatacaoText divMargin espacoDivLancQtd" disabled>
+                        <input type="text" value="" name="precoProduto" id="lanQtdPedido"
+                            class="tamanhoLabelInputText formatacaoText divMargin espacoDivLancQtd">
+                        <input type="button" value="Lançar no Pedido" name="btnLancarPedido" id="btnLancarPedido"
+                            class="tamanhoLabelInputText formatacaoText divMargin">
+                    </div>
+                    <div class="displayFlex divButtonNav spaceBetween">
+                        <tbody>
+
+                        </tbody>
+                    </div>
+                </form>
+            </fieldset>
+
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+Espaços reservados na mempria.
+
+var do tipo string var fruta = 

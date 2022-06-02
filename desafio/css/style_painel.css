@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: Verdana, Arial;
+    --font-corText: #000;
+    --font-corPointer: #fff;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexColumn {
+    flex-direction: column;
+
+}
+
+.ajusteCentro {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Para mostro ou ocutar elemento ------------------------------------------------------------------------- */
+
+.mostrar {
+    display: block;
+}
+
+.fechar {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+section#menul {
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid #cccccc;
+}
+
+ul {
+    text-decoration: none;
+    align-items: center;
+}
+
+.icons-list {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.listaMenu {
+    font-family: var(--font-padrao);
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.listaMenu:hover {
+    color: #000076;
+    background-color: #c3c3c3;
+}
+
+.size-l-m {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+#menu2 {
+    width: 80vw;
+
+    background-color: blue;
+    margin: 0 auto;
+}
+
+
+#fClientes {
+    width: 400px;
+    background-color: aqua;
+}
+
+#fProdutos {
+    width: 400px;
+    background-color: yellow;
+}
+
+#fPedidos {
+    width: 800px;
+    background-color: green;
+}
+
+.formatacaoCentro {
+    margin: 0 auto;
+}
+
+.fortmatacaoFieldset {
+    padding: 10px;
+}
+
+.espacamentoLabelSec {
+    margin-top: 2px;
+}
+
+.espacamentoInput {
+    margin-top: 1px;
+}
+
+.styleLabel {
+    width: 100%;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.secIcons {
+    width: 100%;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tituloLabel {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: tomato;
+}
+
+
+.btnStyle {
+    width: 50px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.btnMaiorMenor {
+    border: none;
+    background-color: purple;
+    color: var(--font-corPointer);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnNovoSalvar {
+    width: 80px;
+    border: none;
+    color: var(--font-corPointer);
+    cursor: pointer;
+
+}
+
+.btnNovo {
+    background-color: #3434ec;
+}
+
+.btnSalvar {
+    background-color: #01a401;
+}
+
+.btnStyleX {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+form {
+    width: 100%;
+    background-color: crimson;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.formatacaoText {
+    font-family: var(--font-padrao);
+    color: var(--font-corText);
+    font-size: 1rem;
+}
+
+.tamanhoInputText {
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+}

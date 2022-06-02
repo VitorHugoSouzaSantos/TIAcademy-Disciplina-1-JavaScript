@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style_painel.css">
+    <script type="module" src="./js/script_painel.js?v=1"></script>
+
+    <script type="module" src="./usuarioClienteProduto/clientes.js"></script>
+    <script type="module" src="./usuarioClienteProduto/produtos.js"></script>
+
+    <title>Painel - FlashJS</title>
+</head>
+
+<body>
+    <header></header>
+    <main class="">
+        <section id="menul">
+            <ul class="">
+                <li class="size-l-m">
+                    <a id="iClientesIcon" class="listaMenu" href=""><span class="material-symbols-outlined icons-list">
+                            group_add</span>Clientes</a>
+                </li>
+                <li class="size-l-m">
+                    <a id="iProdutosIcon" class="listaMenu" href=""><span
+                            class="material-symbols-outlined icons-list">redeem</span>Produtos</a>
+                </li>
+                <li class="size-l-m">
+                    <a id="iPedidosIcon" class="listaMenu" href=""><span class="material-symbols-outlined icons-list">
+                            shopping_cart
+                        </span>Pedidos</a>
+                </li>
+            </ul>
+        </section>
+        <section id="menu2">sdsdasdasdasd
+
+            <fieldset id="fClientes" class="fortmatacaoFieldset formatacaoCentro">
+                <form action="" class="flex flexColumn ajusteCentro">
+                    <div class="tituloLabel spaceBetween flex">
+
+                        <h2 class="formatacaoText">Clientes</h2>
+
+                        <input type="button" value="X" class="btnStyleX" id="btnFecharClientes" name="btnFecharClientes">
+                    </div>
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Código</label>
+                    <input data-clien="1" type="text" name="codCliente" id="codCliente" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Nome</label>
+                    <input data-clien="2" type="text" name="nomeCliente" id="nomeCliente"
+                        class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Data
+                        Cadastro</label>
+                    <input data-clien="3" type="text" name="dataCadCli" id="dataCadCli"
+                        class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <section class="secIcons flex spaceBetween espacamentoLabelSec">
+                        <nav>
+                            <input type="button" value="<" class="btnStyle btnMaiorMenor">
+                            <input type="button" value=">" class="btnStyle btnMaiorMenor">
+                        </nav>
+
+                        <nav>
+                            <input type="button" value="Novo" class="btnStyle btnNovoSalvar btnNovo">
+                            <input type="button" value="Salvar" class="btnStyle btnNovoSalvar btnSalvar">
+                        </nav>
+
+                    </section>
+                </form>
+            </fieldset>
+
+
+
+            <fieldset id="fProdutos" class="fortmatacaoFieldset formatacaoCentro fechar">
+                <form action="" class="flex flexColumn ajusteCentro">
+                    <div class="tituloLabel spaceBetween flex">
+                        <h2 class="formatacaoText">Produtos</h2>
+                        <input type="button" value="X" class="btnStyleX btnX" id="btnFecharProdutos" name="btnFecharProdutos">
+                    </div>
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Código</label>
+                    <input type="text" name="codProduto" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for=""
+                        class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Descrição</label>
+                    <input type="text" name="descProduto" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Preço</label>
+                    <input type="text" name="precoProduto" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for=""
+                        class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Quantidade</label>
+                    <input type="text" name="qtdEstoqueProd" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <section class="secIcons flex spaceBetween espacamentoLabelSec">
+                        <nav>
+                            <input type="button" value="<" class="btnStyle btnMaiorMenor">
+                            <input type="button" value=">" class="btnStyle btnMaiorMenor">
+                        </nav>
+                        <nav>
+                            <input type="button" value="Novo" class="btnStyle btnNovoSalvar btnNovo">
+                            <input type="button" value="Salvar" class="btnStyle btnNovoSalvar btnSalvar">
+                        </nav>
+                    </section>
+                </form>
+            </fieldset>
+
+            <fieldset id="fPedidos" class="fortmatacaoFieldset formatacaoCentro fechar">
+                <form action="" class="flex flexColumn ajusteCentro">
+                    <div class="tituloLabel spaceBetween flex">
+                        <h2 class="formatacaoText">Pedidos</h2>
+                        <input type="button" value="X" class="btnStyleX" id="btnFecharPedidos" name="btnFecharPedidos">
+                    </div>
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Código do
+                        Cliente</label>
+                    <input type="text" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Cliente</label>
+                    <input type="text" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Localizar
+                        produto</label>
+                    <input type="text" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <label for="" class="styleLabel flex flexColumn espacamentoLabelSec formatacaoText">Itens do
+                        Pedido</label>
+                    <input type="text" class="tamanhoInputText formatacaoText espacamentoInput">
+
+                    <table>
+                        Itens do Pedido
+                        <tr>
+                            <th>Item</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Qtd</th>
+                            <th>Sub Total</th>
+                        </tr>
+                    </table>
+                    <section class="secIcons flex spaceBetween espacamentoLabelSec">
+                        <nav>
+                            <input type="button" value="<" class="btnStyle btnMaiorMenor">
+                            <input type="button" value=">" class="btnStyle btnMaiorMenor">
+                        </nav>
+                        <nav>
+                            <input type="button" value="Novo" class="btnStyle btnNovoSalvar btnNovo">
+                            <input type="button" value="Salvar" class="btnStyle btnNovoSalvar btnSalvar">
+                        </nav>
+
+                    </section>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

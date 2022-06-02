@@ -1,0 +1,8 @@
+1
+Diferença do escopo onde as variáveis são declaradas.
+
+2
+Não.
+
+3
+C

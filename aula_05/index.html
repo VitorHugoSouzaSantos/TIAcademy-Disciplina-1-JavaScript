@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulla 5 - Concatenação de STRINGS - Saída e entrada de dados</title>
+</head>
+<script>
+    // alert("Olá Mundo!");
+    // prompt("Digite alguma coisa");
+    // confirm("Clique em um botão")
+
+    // var nome = "Vitor"
+    // alert("Olá " + nome)
+
+    // var nome = prompt("Digite seu nome");
+    // var cor = prompt("Qual sua cor favorita " + nome );
+
+    // document.write("Nome...: " + nome + "<br>");
+    // document.write("A cor favorita do " +nome+" é "+cor);
+
+    // var verdFalso = confirm("Clique em um botão")
+
+    // if(confirm("Clique em um botão")){
+    //     console.log("Você clicou no OK");
+    // }else{
+    //     console.log("Você clicou em Cancelar")
+    // }
+
+    // if (confirm("Clique em um botão")) {
+    //     document.write("Você clicou no OK");
+    //     alert("Você clicou mesmo em OK");
+    // } else {
+    //     console.log("Você clicou em Cancelar")
+    // }
+
+    var opcao = prompt("Digite 1 ou 2 para continuar");
+    console.log(opcao)
+
+    switch (opcao) {
+        case "1":
+            var pergunta = confirm("Você pertende continuar a operação.");
+            if (pergunta) {
+                alert("Parabéns está ficando bom.");
+            } else {
+                alert("Poxa vida, você esta aflito, não quer continuar.");
+            }
+            break;
+        case "2":
+            var pergunta = confirm("Você é casado?")
+            if (pergunta) {
+                var conj = prompt("Qual é o nome do seu conjuge");
+                alert("Parabéns por ser casado com o(a) " + conj);
+            }
+            break;
+        default: console.log("Esta opção não existe");
+            break;
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: Verdana, Arial;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 10px;
+}
+
+#btnEntrar {
+    height: 50px;
+    background-color: #4a4af7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#btn-entrar:hover{
+    background-color: blue;
+}
+
+.margem-top {
+    margin-top: 5px;
+}
+
+.i-login {
+    height: 30px;
+    flex-direction: column;
+    background-color: #f8f1b3;
+}
+label {
+    font-family: var(--font-padrao);
+    
+}
+.l-ajustes{
+    display: flex;
+    flex-direction: column;
+}

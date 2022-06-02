@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-padrao: Verdana, Arial;
+    --font-corText: #000;
+    --font-corPointer: #fff;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* utilizado no titulo e botão x para fechar e nas div dos botões*/
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.ajusteCentro {
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+
+}
+
+li {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* display: inline; */
+}
+
+li:hover {
+    background-color: #d3d3d3;
+}
+
+.icons-list {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+/* Formatação Section -------------------------------------------------------------------------------- */
+
+#menuSectionIcons {
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid #cccccc;
+}
+
+#menuSectionClienProdPed {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+form {
+    width: 100%;
+}
+
+input {
+    border: 1px solid black;
+}
+
+/* btn  ----------------------------------------------------------------------------------------------- */
+
+.btnStyle {
+    width: 50px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.btnMaiorMenor {
+    border: none;
+    background-color: purple;
+    color: var(--font-corPointer);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnNovoSalvar {
+    width: 80px;
+    border: none;
+    color: var(--font-corPointer);
+    cursor: pointer;
+
+}
+
+.btnNovo {
+    background-color: #3434ec;
+}
+
+.btnSalvar {
+    background-color: #01a401;
+}
+
+.btnStyleX {
+    width: 20px;
+    height: 20px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background: none
+}
+.btnStyleX:hover{
+    background-color: #d3d3d3;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* Janela Clientes */
+
+.fortmatacaoFieldsetClienProdPedi{
+    width: 400px;
+    height: auto;
+
+}
+.fortmatacaoFieldsetPedi{
+    width: 800px;
+    height: auto;
+
+}
+.fortmatacaoFieldset {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.divTitulo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Label e Input*/
+
+.tamanhoLabelInputText {
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    margin-top: 2px;
+    font-size: 1rem;
+
+}
+
+.formatacaoText {
+    font-family: var(--font-padrao);
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 1.1rem;
+
+}
+
+
+/* div dos botões de navegação, salvar, novo */
+
+.divButtonNav {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#divLancarPedidos{
+    background-color: #c9c9c9;
+    padding: 5px;
+}
+.primeiraDiv{
+    width: 40px;
+}
+.espacoDivLancQtd{
+    width: 100px;
+
+}
+
+.divMargin{
+    margin-left: 5px;
+}
+

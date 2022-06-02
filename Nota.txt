@@ -1,0 +1,51 @@
+
+
+Aula 10 - Manipulação de STRINGS
+Exercício 12 - Ok
+
+Aula 11 - Objetos em JS
+Exercício 13 - Rever ---------------------------------------------
+
+Aula 12 - Loop ou Laço de repetição (for)
+Exercício 14 - Rever ---------------------------------------------
+
+Aula 13 - Loop ou Laço de repetição (for in & for of)
+Exercício 15 - Rever ---------------------------------------------
+
+Aula 14 - "while" & "do while"
+-------------------------------------------------------------------------------------------------------------
+
+Aula 15 - (typeof) - Manipulação de elementos (DOM)
+Exercício 16 -  arruamr --------------------------------------------------------
+
+Aula 16 - Manipulação HTML (querySelectorAll)
+Exercício 17 - Rever ---------------------------------------------
+
+Aula 17 - Manipulação HTML (Criar elementos dinamicamente - Data Attributes)
+Exercício 19 - 
+
+Aula 18 - 
+Exercício 20 - 
+
+
+    <!-- ul#ulPai>li{item_$}*5 -->
+
+        btnAbrirFecharClientes.addEventListener('click', (botao) => {
+        switch (botao.target.id) {
+            case 'voltarCliente':
+
+                break;
+            case 'proximoCliente':
+
+                break;
+            case 'novoCliente':
+
+                break;
+            case salvarCliente:
+
+                break;
+
+            default:
+                break;
+        }
+    })

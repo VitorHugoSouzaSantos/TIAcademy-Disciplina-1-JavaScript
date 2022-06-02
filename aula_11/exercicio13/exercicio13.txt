@@ -1,0 +1,8 @@
+1
+troca a palavar ou letra.
+
+3
+Não
+
+4
+è uma plavra reservada que da origem a um novo objeto.
